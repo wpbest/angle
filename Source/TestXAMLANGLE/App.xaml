@@ -1,0 +1,13 @@
+﻿<Application
+    x:Class="TestXAMLANGLE.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestXAMLANGLE"
+    xmlns:localData="using:Shared">
+
+    <Application.Resources>
+
+      <x:String x:Key="AppName">TestXAMLANGLE</x:String>
+
+    </Application.Resources>
+</Application>

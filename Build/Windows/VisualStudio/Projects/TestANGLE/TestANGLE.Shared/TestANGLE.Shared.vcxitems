@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{1dd8cef3-a286-4022-9089-6f5d948c0e2c}</ItemsProjectGuid>
+    <ItemsRootNamespace>TestANGLE</ItemsRootNamespace>
+    <ItemsProjectName>TestANGLE.Shared</ItemsProjectName>
+    <SharedGUID>29635c5b-d6ed-4441-bd07-2d89fee3512c</SharedGUID>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestANGLE\app.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestANGLE\pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestANGLE\SimpleRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestANGLE\app.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestANGLE\MathHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestANGLE\pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestANGLE\SimpleRenderer.h" />
+  </ItemGroup>
+</Project>

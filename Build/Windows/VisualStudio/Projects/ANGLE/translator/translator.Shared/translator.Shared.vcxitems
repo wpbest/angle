@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{95A0BA5A-469C-4896-8C61-203E611ABC9D}</ItemsProjectGuid>
+    <ItemsRootNamespace>translator_lib</ItemsRootNamespace>
+    <ItemsProjectName>translator.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\blocklayout.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\blocklayoutHLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\BuiltInFunctionEmulator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\BuiltInFunctionEmulatorGLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\BuiltInFunctionEmulatorHLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\CodeGen.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\Compiler.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\compilerdebug.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\depgraph\DependencyGraph.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\depgraph\DependencyGraphBuilder.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\depgraph\DependencyGraphOutput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\depgraph\DependencyGraphTraverse.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\DetectCallDepth.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\DetectDiscontinuity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\Diagnostics.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\DirectiveHandler.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\EmulatePrecision.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\FlagStd140Structs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\ForLoopUnroll.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\glslang_lex.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\glslang_tab.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\InfoSink.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\Initialize.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\InitializeDll.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\InitializeParseContext.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\InitializeVariables.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\Intermediate.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\IntermNode.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\intermOut.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\IntermTraverse.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\LoopInfo.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\Operator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\OutputESSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\OutputGLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\OutputGLSLBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\OutputHLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\parseConst.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\ParseContext.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\PoolAlloc.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\QualifierAlive.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\RegenerateStructNames.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\RemoveSwitchFallThrough.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\RewriteElseBlocks.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\ScalarizeVecAndMatConstructorArgs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\SearchSymbol.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\ShaderLang.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\ShaderVars.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\StructureHLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\SymbolTable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\timing\RestrictFragmentShaderTiming.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\timing\RestrictVertexShaderTiming.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\TranslatorESSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\TranslatorGLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\TranslatorHLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\Types.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\UnfoldShortCircuit.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\UnfoldShortCircuitAST.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\UniformHLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\util.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\UtilsHLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\ValidateLimitations.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\ValidateOutputs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\ValidateSwitch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\VariableInfo.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\VariablePacker.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\translator\VersionGLSL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\third_party\compiler\ArrayBoundsClamper.cpp" />
+  </ItemGroup>
+</Project>

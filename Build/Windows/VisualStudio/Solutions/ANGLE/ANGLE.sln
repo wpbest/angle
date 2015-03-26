@@ -1,0 +1,164 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ANGLE", "ANGLE", "{E0050CEF-1C11-4236-80BD-BB4A84613E19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "angle_common", "angle_common", "{46889713-21F1-417F-A1DA-240751D99509}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libANGLE", "libANGLE", "{8022E3FF-BB2C-43D3-9B2F-F0BE7B1774C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libEGL", "libEGL", "{36C7EA55-C3D5-448C-B814-66890509AB95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libGLESv2", "libGLESv2", "{3742030E-AB87-4C19-B24B-9935D6FFBC63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "preprocessor", "preprocessor", "{FD15DEBF-BAAE-450F-BD58-EAB445874F17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "translator", "translator", "{AA0DED4B-071C-4DB0-AA37-C6A9822EA4F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "angle_common.Shared", "..\..\Projects\ANGLE\angle_common\angle_common.Shared\angle_common.Shared.vcxitems", "{F9C0688B-528C-4931-AEF7-26D39D464C7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libANGLE.Shared", "..\..\Projects\ANGLE\libANGLE\libANGLE.Shared\libANGLE.Shared.vcxitems", "{ADA9A1B2-7544-4DF5-8243-49762FE89205}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libEGL.Shared", "..\..\Projects\ANGLE\libEGL\libEGL.Shared\libEGL.Shared.vcxitems", "{C5B749ED-C68F-442B-AC1C-0D7BF083DFCF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libGLESv2.Shared", "..\..\Projects\ANGLE\libGLESv2\libGLESv2.Shared\libGLESv2.Shared.vcxitems", "{BF7BFB06-2BCA-4966-A4F3-935BEB0FD20B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "preprocessor.Shared", "..\..\Projects\ANGLE\preprocessor\preprocessor.Shared\preprocessor.Shared.vcxitems", "{D36086FA-787F-4481-82BF-E90F604164C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "angle_common.Windows", "..\..\Projects\ANGLE\angle_common\angle_common.Windows\angle_common.Windows.vcxproj", "{B5276D22-7454-400A-8B40-F88A4FC719D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libANGLE.Windows", "..\..\Projects\ANGLE\libANGLE\libANGLE.Windows\libANGLE.Windows.vcxproj", "{04B51946-9B13-45A7-AAE4-F60B816BA619}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libEGL.Windows", "..\..\Projects\ANGLE\libEGL\libEGL.Windows\libEGL.Windows.vcxproj", "{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libGLESv2.Windows", "..\..\Projects\ANGLE\libGLESv2\libGLESv2.Windows\libGLESv2.Windows.vcxproj", "{185C7637-F1CF-4884-AA3B-2B89D578907A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "preprocessor.Windows", "..\..\Projects\ANGLE\preprocessor\preprocessor.Windows\preprocessor.Windows.vcxproj", "{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "translator.Shared", "..\..\Projects\ANGLE\translator\translator.Shared\translator.Shared.vcxitems", "{95A0BA5A-469C-4896-8C61-203E611ABC9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "translator.Windows", "..\..\Projects\ANGLE\translator\translator.Windows\translator.Windows.vcxproj", "{60312D2A-75F6-4251-AF4E-D097FBA441FC}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\Projects\ANGLE\preprocessor\preprocessor.Shared\preprocessor.Shared.vcxitems*{56c527d2-8878-4aa2-a4e5-5fc38f76bee0}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\angle_common\angle_common.Shared\angle_common.Shared.vcxitems*{f9c0688b-528c-4931-aef7-26d39d464c7f}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\libANGLE\libANGLE.Shared\libANGLE.Shared.vcxitems*{ada9a1b2-7544-4df5-8243-49762fe89205}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\libGLESv2\libGLESv2.Shared\libGLESv2.Shared.vcxitems*{185c7637-f1cf-4884-aa3b-2b89d578907a}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\translator\translator.Shared\translator.Shared.vcxitems*{60312d2a-75f6-4251-af4e-d097fba441fc}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\translator\translator.Shared\translator.Shared.vcxitems*{95a0ba5a-469c-4896-8c61-203e611abc9d}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\libGLESv2\libGLESv2.Shared\libGLESv2.Shared.vcxitems*{bf7bfb06-2bca-4966-a4f3-935beb0fd20b}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\libEGL\libEGL.Shared\libEGL.Shared.vcxitems*{c5b749ed-c68f-442b-ac1c-0d7bf083dfcf}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\angle_common\angle_common.Shared\angle_common.Shared.vcxitems*{b5276d22-7454-400a-8b40-f88a4fc719d8}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\preprocessor\preprocessor.Shared\preprocessor.Shared.vcxitems*{d36086fa-787f-4481-82bf-e90f604164c2}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\libANGLE\libANGLE.Shared\libANGLE.Shared.vcxitems*{04b51946-9b13-45a7-aae4-f60b816ba619}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\libEGL\libEGL.Shared\libEGL.Shared.vcxitems*{5055dbc6-7ca5-4044-bfbc-5bff1f3ef3e5}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Debug|ARM.Build.0 = Debug|ARM
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Debug|Win32.Build.0 = Debug|Win32
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Debug|x64.ActiveCfg = Debug|x64
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Debug|x64.Build.0 = Debug|x64
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Release|ARM.ActiveCfg = Release|ARM
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Release|ARM.Build.0 = Release|ARM
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Release|Win32.ActiveCfg = Release|Win32
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Release|Win32.Build.0 = Release|Win32
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Release|x64.ActiveCfg = Release|x64
+		{B5276D22-7454-400A-8B40-F88A4FC719D8}.Release|x64.Build.0 = Release|x64
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Debug|ARM.ActiveCfg = Debug|ARM
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Debug|ARM.Build.0 = Debug|ARM
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Debug|Win32.Build.0 = Debug|Win32
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Debug|x64.ActiveCfg = Debug|x64
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Debug|x64.Build.0 = Debug|x64
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Release|ARM.ActiveCfg = Release|ARM
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Release|ARM.Build.0 = Release|ARM
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Release|Win32.ActiveCfg = Release|Win32
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Release|Win32.Build.0 = Release|Win32
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Release|x64.ActiveCfg = Release|x64
+		{04B51946-9B13-45A7-AAE4-F60B816BA619}.Release|x64.Build.0 = Release|x64
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Debug|ARM.Build.0 = Debug|ARM
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Debug|Win32.Build.0 = Debug|Win32
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Debug|x64.ActiveCfg = Debug|x64
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Debug|x64.Build.0 = Debug|x64
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Release|ARM.ActiveCfg = Release|ARM
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Release|ARM.Build.0 = Release|ARM
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Release|Win32.ActiveCfg = Release|Win32
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Release|Win32.Build.0 = Release|Win32
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Release|x64.ActiveCfg = Release|x64
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5}.Release|x64.Build.0 = Release|x64
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Debug|ARM.Build.0 = Debug|ARM
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Debug|Win32.Build.0 = Debug|Win32
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Debug|x64.ActiveCfg = Debug|x64
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Debug|x64.Build.0 = Debug|x64
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Release|ARM.ActiveCfg = Release|ARM
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Release|ARM.Build.0 = Release|ARM
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Release|Win32.ActiveCfg = Release|Win32
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Release|Win32.Build.0 = Release|Win32
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Release|x64.ActiveCfg = Release|x64
+		{185C7637-F1CF-4884-AA3B-2B89D578907A}.Release|x64.Build.0 = Release|x64
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Debug|ARM.ActiveCfg = Debug|ARM
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Debug|ARM.Build.0 = Debug|ARM
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Debug|Win32.Build.0 = Debug|Win32
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Debug|x64.ActiveCfg = Debug|x64
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Debug|x64.Build.0 = Debug|x64
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Release|ARM.ActiveCfg = Release|ARM
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Release|ARM.Build.0 = Release|ARM
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Release|Win32.ActiveCfg = Release|Win32
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Release|Win32.Build.0 = Release|Win32
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Release|x64.ActiveCfg = Release|x64
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0}.Release|x64.Build.0 = Release|x64
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Debug|ARM.Build.0 = Debug|ARM
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Debug|Win32.Build.0 = Debug|Win32
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Debug|x64.ActiveCfg = Debug|x64
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Debug|x64.Build.0 = Debug|x64
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Release|ARM.ActiveCfg = Release|ARM
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Release|ARM.Build.0 = Release|ARM
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Release|Win32.ActiveCfg = Release|Win32
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Release|Win32.Build.0 = Release|Win32
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Release|x64.ActiveCfg = Release|x64
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46889713-21F1-417F-A1DA-240751D99509} = {E0050CEF-1C11-4236-80BD-BB4A84613E19}
+		{8022E3FF-BB2C-43D3-9B2F-F0BE7B1774C7} = {E0050CEF-1C11-4236-80BD-BB4A84613E19}
+		{36C7EA55-C3D5-448C-B814-66890509AB95} = {E0050CEF-1C11-4236-80BD-BB4A84613E19}
+		{3742030E-AB87-4C19-B24B-9935D6FFBC63} = {E0050CEF-1C11-4236-80BD-BB4A84613E19}
+		{FD15DEBF-BAAE-450F-BD58-EAB445874F17} = {E0050CEF-1C11-4236-80BD-BB4A84613E19}
+		{AA0DED4B-071C-4DB0-AA37-C6A9822EA4F5} = {E0050CEF-1C11-4236-80BD-BB4A84613E19}
+		{F9C0688B-528C-4931-AEF7-26D39D464C7F} = {46889713-21F1-417F-A1DA-240751D99509}
+		{ADA9A1B2-7544-4DF5-8243-49762FE89205} = {8022E3FF-BB2C-43D3-9B2F-F0BE7B1774C7}
+		{C5B749ED-C68F-442B-AC1C-0D7BF083DFCF} = {36C7EA55-C3D5-448C-B814-66890509AB95}
+		{BF7BFB06-2BCA-4966-A4F3-935BEB0FD20B} = {3742030E-AB87-4C19-B24B-9935D6FFBC63}
+		{D36086FA-787F-4481-82BF-E90F604164C2} = {FD15DEBF-BAAE-450F-BD58-EAB445874F17}
+		{B5276D22-7454-400A-8B40-F88A4FC719D8} = {46889713-21F1-417F-A1DA-240751D99509}
+		{04B51946-9B13-45A7-AAE4-F60B816BA619} = {8022E3FF-BB2C-43D3-9B2F-F0BE7B1774C7}
+		{5055DBC6-7CA5-4044-BFBC-5BFF1F3EF3E5} = {36C7EA55-C3D5-448C-B814-66890509AB95}
+		{185C7637-F1CF-4884-AA3B-2B89D578907A} = {3742030E-AB87-4C19-B24B-9935D6FFBC63}
+		{56C527D2-8878-4AA2-A4E5-5FC38F76BEE0} = {FD15DEBF-BAAE-450F-BD58-EAB445874F17}
+		{95A0BA5A-469C-4896-8C61-203E611ABC9D} = {AA0DED4B-071C-4DB0-AA37-C6A9822EA4F5}
+		{60312D2A-75F6-4251-AF4E-D097FBA441FC} = {AA0DED4B-071C-4DB0-AA37-C6A9822EA4F5}
+	EndGlobalSection
+EndGlobal

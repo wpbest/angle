@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{c5740733-d910-4e9c-89c8-003b34cc76c7}</ItemsProjectGuid>
+    <ItemsRootNamespace>TestXAMLANGLE</ItemsRootNamespace>
+    <ItemsProjectName>TestXAMLANGLE.Shared</ItemsProjectName>
+    <SharedGUID>bda36d61-e687-4f17-a0d7-7c9394a178dd</SharedGUID>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\App.xaml">
+      <FileType>Document</FileType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\App.xaml.cpp">
+      <DependentUpon>$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\App.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\OpenGLES.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\SimpleRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\App.xaml.h">
+      <DependentUpon>$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\App.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\MathHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\OpenGLES.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestXAMLANGLE\SimpleRenderer.h" />
+  </ItemGroup>
+</Project>

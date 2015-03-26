@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{F9C0688B-528C-4931-AEF7-26D39D464C7F}</ItemsProjectGuid>
+    <ItemsRootNamespace>angle_common</ItemsRootNamespace>
+    <ItemsProjectName>angle_common.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\common\angleutils.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\common\mathutil.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\common\MemoryBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\common\tls.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\common\utilities.cpp" />
+  </ItemGroup>
+</Project>

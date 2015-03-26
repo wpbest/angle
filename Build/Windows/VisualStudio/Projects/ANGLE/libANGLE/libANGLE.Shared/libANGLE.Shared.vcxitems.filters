@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0def0c8c-25f7-496e-b539-42d0a9aa0895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{c965dc23-d1ba-49f7-8b42-91263f1ac035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE">
+      <UniqueIdentifier>{8bdae155-f842-496b-ae59-13d715bfa214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer">
+      <UniqueIdentifier>{6bc46024-e96b-4535-96b2-6e633573b8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer\d3d">
+      <UniqueIdentifier>{2e047411-82ed-434c-8212-4e0660490ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer\d3d\d3d11">
+      <UniqueIdentifier>{a4358ccd-6aa0-464b-89a2-47975d858dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer\d3d\d3d11\winrt">
+      <UniqueIdentifier>{ca7a22b4-32cc-42a9-a727-e675e760d281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\third_party">
+      <UniqueIdentifier>{a71e0cd0-f76f-4f37-9a5f-2a94e4f408ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\third_party\murmurhash">
+      <UniqueIdentifier>{2ffe3bf3-95f7-4537-86ef-a475e5a337a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\common\debug.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\common\event_tracer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\CoreWindowNativeWindow.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\InspectableNativeWindow.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\SwapChainPanelNativeWindow.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Blit11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Buffer11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Clear11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Fence11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\formatutils11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Framebuffer11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Image11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\IndexBuffer11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\InputLayoutCache.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\PixelTransfer11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Query11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Renderer11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\renderer11_utils.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\RenderStateCache.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\RenderTarget11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\ShaderExecutable11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\SwapChain11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\TextureStorage11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Trim11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\VertexBuffer11.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\BufferD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\CompilerD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\copyimage.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\DisplayD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\DynamicHLSL.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\formatutilsD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\FramebufferD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\HLSLCompiler.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\ImageD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\IndexBuffer.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\IndexDataManager.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\loadimage.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\loadimageSSE2.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\ProgramD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\RenderbufferD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\RendererD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\RenderTargetD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\ShaderD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\ShaderExecutableD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\SurfaceD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\TextureD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\TextureStorage.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\TransformFeedbackD3D.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\VertexBuffer.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\VertexDataManager.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\DisplayImpl.cpp">
+      <Filter>Source Files\libANGLE\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\IndexRangeCache.cpp">
+      <Filter>Source Files\libANGLE\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\ProgramImpl.cpp">
+      <Filter>Source Files\libANGLE\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\RenderbufferImpl.cpp">
+      <Filter>Source Files\libANGLE\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\Renderer.cpp">
+      <Filter>Source Files\libANGLE\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\SurfaceImpl.cpp">
+      <Filter>Source Files\libANGLE\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\angletypes.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\AttributeMap.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Buffer.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Caps.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Compiler.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Config.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Context.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Data.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Display.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Error.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Fence.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Float16ToFloat32.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\formatutils.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Framebuffer.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\FramebufferAttachment.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\HandleAllocator.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\ImageIndex.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Platform.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Program.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Query.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\queryconversions.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\RefCountObject.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Renderbuffer.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\ResourceManager.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Sampler.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Shader.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\State.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Surface.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Texture.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\TransformFeedback.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\Uniform.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\validationEGL.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\validationES.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\validationES2.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\validationES3.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\VertexArray.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\VertexAttribute.cpp">
+      <Filter>Source Files\libANGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\third_party\murmurhash\MurmurHash3.cpp">
+      <Filter>Source Files\third_party\murmurhash</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\ProgramD3D.h">
+      <Filter>Source Files\libANGLE\renderer\d3d</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

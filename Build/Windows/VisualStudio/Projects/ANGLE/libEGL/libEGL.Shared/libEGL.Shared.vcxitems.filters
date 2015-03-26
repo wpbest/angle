@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{db3efa39-2d7a-443d-a0f1-8019bf5c4c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libEGL">
+      <UniqueIdentifier>{ba794822-dd68-49b4-bac7-0b84edcb9944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Definition File">
+      <UniqueIdentifier>{5d3b93e9-1fc9-44c2-b540-8f170cfa40dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Definition File\libEGL">
+      <UniqueIdentifier>{3505d117-a670-493d-b330-7829f45ce1f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libEGL\libEGL.cpp">
+      <Filter>Source Files\libEGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libEGL\libEGL.def">
+      <Filter>Module Definition File\libEGL</Filter>
+    </None>
+  </ItemGroup>
+</Project>

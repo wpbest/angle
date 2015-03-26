@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d6a4ce6f-3ee7-4f22-979e-1812b9a15030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libGLESv2">
+      <UniqueIdentifier>{233d6583-c564-4fe1-9d8d-f75d7d8cf7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Definition File">
+      <UniqueIdentifier>{26edd2f6-833a-4b8c-93bf-7d8f1fcc8953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Definition File\libGLESv2">
+      <UniqueIdentifier>{48e5e4fc-0f31-4667-80f0-2ca1a3069198}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\entry_points_egl.cpp">
+      <Filter>Source Files\libGLESv2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\entry_points_egl_ext.cpp">
+      <Filter>Source Files\libGLESv2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\entry_points_gles_2_0.cpp">
+      <Filter>Source Files\libGLESv2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\entry_points_gles_2_0_ext.cpp">
+      <Filter>Source Files\libGLESv2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\entry_points_gles_3_0.cpp">
+      <Filter>Source Files\libGLESv2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\entry_points_gles_3_0_ext.cpp">
+      <Filter>Source Files\libGLESv2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\global_state.cpp">
+      <Filter>Source Files\libGLESv2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\libGLESv2.cpp">
+      <Filter>Source Files\libGLESv2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\libGLESv2.def">
+      <Filter>Module Definition File\libGLESv2</Filter>
+    </None>
+  </ItemGroup>
+</Project>

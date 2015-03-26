@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8a61a3f9-b3b8-4cda-9088-5a66f51bb1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\compiler">
+      <UniqueIdentifier>{70f2e051-ddad-4092-a153-5b230f49cd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\compiler\preprocessor">
+      <UniqueIdentifier>{ef9ac786-7c3f-4728-86b4-8a8e91d84ab0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\DiagnosticsBase.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\DirectiveHandlerBase.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\DirectiveParser.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\ExpressionParser.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\Input.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\Lexer.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\Macro.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\MacroExpander.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\Preprocessor.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\Token.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\compiler\preprocessor\Tokenizer.cpp">
+      <Filter>Source Files\compiler\preprocessor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
