@@ -159,7 +159,7 @@
     </Link>
     <PostBuildEvent>
       <Message>Copy D3D Compiler to $(OutDir)</Message>
-      <Command>copy /b /v /y  ..\..\D3D_COMPILER\x86\*.* $(OutDir)*.*</Command>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\x86\*.*" $(OutDir)*.*</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -179,7 +179,7 @@
     </Link>
     <PostBuildEvent>
       <Message>Copy D3D Compiler to $(OutDir)</Message>
-      <Command>copy /b /v /y  ..\..\D3D_COMPILER\x86\*.* $(OutDir)*.*</Command>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\x86\*.*" $(OutDir)*.*</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm'">
@@ -199,7 +199,7 @@
     </Link>
     <PostBuildEvent>
       <Message>Copy D3D Compiler to $(OutDir)</Message>
-      <Command>copy /b /v /y  ..\..\D3D_COMPILER\arm\*.* $(OutDir)*.*</Command>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\arm\*.*" $(OutDir)*.*</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm'">
@@ -219,7 +219,7 @@
     </Link>
     <PostBuildEvent>
       <Message>Copy D3D Compiler to $(OutDir)</Message>
-      <Command>copy /b /v /y  ..\..\D3D_COMPILER\arm\*.* $(OutDir)*.*</Command>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\arm\*.*" $(OutDir)*.*</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -239,7 +239,7 @@
     </Link>
     <PostBuildEvent>
       <Message>Copy D3D Compiler to $(OutDir)</Message>
-      <Command>copy /b /v /y  ..\..\D3D_COMPILER\x64\*.* $(OutDir)*.*</Command>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\x64\*.*" $(OutDir)*.*</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -259,7 +259,7 @@
     </Link>
     <PostBuildEvent>
       <Message>Copy D3D Compiler to $(OutDir)</Message>
-      <Command>copy /b /v /y  ..\..\D3D_COMPILER\x64\*.* $(OutDir)*.*</Command>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\x64\*.*" $(OutDir)*.*</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

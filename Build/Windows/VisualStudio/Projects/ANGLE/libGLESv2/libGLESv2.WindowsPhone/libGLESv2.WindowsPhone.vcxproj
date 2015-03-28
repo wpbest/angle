@@ -119,6 +119,10 @@
       <AdditionalDependencies>uuid.lib;dxguid.lib;d3d11.lib;d3dcompiler.lib;dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\libGLESv2.def</ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Message>Copy D3D Compiler to $(OutDir)</Message>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\x86\*.*" $(OutDir)*.*</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -135,6 +139,10 @@
       <AdditionalDependencies>uuid.lib;dxguid.lib;d3d11.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\libGLESv2.def</ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Message>Copy D3D Compiler to $(OutDir)</Message>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\x86\*.*" $(OutDir)*.*</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm'">
     <ClCompile>
@@ -151,6 +159,10 @@
       <AdditionalDependencies>uuid.lib;dxguid.lib;d3d11.lib;d3dcompiler.lib;dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\libGLESv2.def</ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Message>Copy D3D Compiler to $(OutDir)</Message>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\arm\*.*" $(OutDir)*.*</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm'">
     <ClCompile>
@@ -167,6 +179,10 @@
       <AdditionalDependencies>uuid.lib;dxguid.lib;d3d11.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>..\..\..\..\..\..\..\Source\ANGLE\libGLESv2\libGLESv2.def</ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Message>Copy D3D Compiler to $(OutDir)</Message>
+      <Command>copy /b /v /y  "$(WindowsSdkDir)\Redist\D3D\arm\*.*" $(OutDir)*.*</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
