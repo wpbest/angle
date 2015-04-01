@@ -13,8 +13,160 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\libANGLE">
+      <UniqueIdentifier>{358a2d2f-3769-4d03-92bd-cb78f2bb6249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer">
+      <UniqueIdentifier>{9a5115a9-d485-48d8-8855-b3812d642246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer\d3d">
+      <UniqueIdentifier>{1ecbdcb6-1618-48db-a42c-74795919fbfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer\gl">
+      <UniqueIdentifier>{3ddf9c33-63e0-4df1-aad2-e8d478a7b89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer\gl\wgl">
+      <UniqueIdentifier>{c9fe122e-4a01-4354-b4a8-d9d3198e155c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer\d3d\d3d11">
+      <UniqueIdentifier>{78256ac7-b69b-41a2-ba2b-ebec1ac7ec7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer\d3d\d3d11\win32">
+      <UniqueIdentifier>{0a360785-fc65-4f8f-a4f9-a67ffe4531e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libANGLE\renderer\d3d\d3d9">
+      <UniqueIdentifier>{4e0e4432-ed2a-4413-8e05-c484376346b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\third_party">
+      <UniqueIdentifier>{3f6e4b56-d615-4243-b965-59f458763710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\third_party\systeminfo">
+      <UniqueIdentifier>{c7268405-d689-4173-aad5-eca16addbce4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\win32\NativeWindow.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d11\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\BufferGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\CompilerGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\DefaultAttachmentGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\DisplayGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\FenceNVGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\FenceSyncGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\FramebufferGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\FunctionsGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\ProgramGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\QueryGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\RenderbufferGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\RendererGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\renderergl_utils.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\ShaderGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\StateManagerGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\SurfaceGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\TextureGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\TransformFeedbackGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\VertexArrayGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\wgl\DisplayWGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl\wgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\wgl\FunctionsWGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl\wgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\wgl\SurfaceWGL.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl\wgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\wgl\wgl_utils.cpp">
+      <Filter>Source Files\libANGLE\renderer\gl\wgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Blit9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Buffer9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Fence9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\formatutils9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Framebuffer9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Image9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\IndexBuffer9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Query9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Renderer9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\renderer9_utils.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\RenderTarget9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\ShaderExecutable9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\SwapChain9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\TextureStorage9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\VertexBuffer9.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\VertexDeclarationCache.cpp">
+      <Filter>Source Files\libANGLE\renderer\d3d\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\third_party\systeminfo\SystemInfo.cpp">
+      <Filter>Source Files\third_party\systeminfo</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

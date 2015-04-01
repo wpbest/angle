@@ -18,6 +18,11 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\CoreWindowNativeWindow.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\InspectableNativeWindow.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\SwapChainPanelNativeWindow.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{353B77EF-0508-4414-ACD7-A9280B0C7752}</ProjectGuid>
     <RootNamespace>libANGLE</RootNamespace>

@@ -1,0 +1,178 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesktopAppForOpenGLES", "..\..\Projects\DesktopAppForOpenGLES\DesktopAppForOpenGLES.vcxproj", "{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ANGLE", "ANGLE", "{64CF49CC-4BA0-4C55-A2C6-9A85CE585BC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "angle_common", "angle_common", "{8FBB3C49-5C85-410C-BD4D-A56FB946781F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "angle_common.Shared", "..\..\Projects\ANGLE\angle_common\angle_common.Shared\angle_common.Shared.vcxitems", "{F9C0688B-528C-4931-AEF7-26D39D464C7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "angle_common.WindowsDesktop", "..\..\Projects\ANGLE\angle_common\angle_common.WindowsDesktop\angle_common.WindowsDesktop.vcxproj", "{E080E217-FDAE-4B97-9C65-C9512FB08688}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libANGLE", "libANGLE", "{CF552B1F-10E3-4A3C-864D-B11C63174B00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libANGLE.Shared", "..\..\Projects\ANGLE\libANGLE\libANGLE.Shared\libANGLE.Shared.vcxitems", "{ADA9A1B2-7544-4DF5-8243-49762FE89205}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libANGLE.WindowsDesktop", "..\..\Projects\ANGLE\libANGLE\libANGLE.WindowsDesktop\libANGLE.WindowsDesktop.vcxproj", "{1DEBBBC4-2253-49EC-BA03-257021EE32A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "preprocessor", "preprocessor", "{5D582C16-B70D-4BB2-BD37-05A5239737B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "preprocessor.Shared", "..\..\Projects\ANGLE\preprocessor\preprocessor.Shared\preprocessor.Shared.vcxitems", "{D36086FA-787F-4481-82BF-E90F604164C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "preprocessor.WindowsDesktop", "..\..\Projects\ANGLE\preprocessor\preprocessor.WindowsDesktop\preprocessor.WindowsDesktop.vcxproj", "{F1D557B1-8F85-4107-93CC-EF4089F06F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "translator", "translator", "{47ACC6A5-38BE-469A-9157-1D4218FB627B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "translator.Shared", "..\..\Projects\ANGLE\translator\translator.Shared\translator.Shared.vcxitems", "{95A0BA5A-469C-4896-8C61-203E611ABC9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "translator.WindowsDesktop", "..\..\Projects\ANGLE\translator\translator.WindowsDesktop\translator.WindowsDesktop.vcxproj", "{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libGLESv2", "libGLESv2", "{C4E25EED-4E4F-4D9B-AB35-E942D9C2635B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libGLESv2.Shared", "..\..\Projects\ANGLE\libGLESv2\libGLESv2.Shared\libGLESv2.Shared.vcxitems", "{BF7BFB06-2BCA-4966-A4F3-935BEB0FD20B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libGLESv2.WindowsDesktop", "..\..\Projects\ANGLE\libGLESv2\libGLESv2.WindowsDesktop\libGLESv2.WindowsDesktop.vcxproj", "{0411C1F2-E7F6-4E37-B595-BA11417E2D84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libEGL", "libEGL", "{BAE129BB-C6FB-4579-931C-398EAE1615CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libEGL.Shared", "..\..\Projects\ANGLE\libEGL\libEGL.Shared\libEGL.Shared.vcxitems", "{C5B749ED-C68F-442B-AC1C-0D7BF083DFCF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libEGL.WindowsDesktop", "..\..\Projects\ANGLE\libEGL\libEGL.WindowsDesktop\libEGL.WindowsDesktop.vcxproj", "{74144146-318D-441B-8B3A-540A5C63A00A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\Projects\ANGLE\angle_common\angle_common.Shared\angle_common.Shared.vcxitems*{f9c0688b-528c-4931-aef7-26d39d464c7f}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\preprocessor\preprocessor.Shared\preprocessor.Shared.vcxitems*{f1d557b1-8f85-4107-93cc-ef4089f06f4a}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\libANGLE\libANGLE.Shared\libANGLE.Shared.vcxitems*{ada9a1b2-7544-4df5-8243-49762fe89205}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\angle_common\angle_common.Shared\angle_common.Shared.vcxitems*{e080e217-fdae-4b97-9c65-c9512fb08688}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\translator\translator.Shared\translator.Shared.vcxitems*{95a0ba5a-469c-4896-8c61-203e611abc9d}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\libGLESv2\libGLESv2.Shared\libGLESv2.Shared.vcxitems*{bf7bfb06-2bca-4966-a4f3-935beb0fd20b}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\libEGL\libEGL.Shared\libEGL.Shared.vcxitems*{c5b749ed-c68f-442b-ac1c-0d7bf083dfcf}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\libEGL\libEGL.Shared\libEGL.Shared.vcxitems*{74144146-318d-441b-8b3a-540a5c63a00a}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\libANGLE\libANGLE.Shared\libANGLE.Shared.vcxitems*{1debbbc4-2253-49ec-ba03-257021ee32a5}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\preprocessor\preprocessor.Shared\preprocessor.Shared.vcxitems*{d36086fa-787f-4481-82bf-e90f604164c2}*SharedItemsImports = 9
+		..\..\Projects\ANGLE\libGLESv2\libGLESv2.Shared\libGLESv2.Shared.vcxitems*{0411c1f2-e7f6-4e37-b595-ba11417e2d84}*SharedItemsImports = 4
+		..\..\Projects\ANGLE\translator\translator.Shared\translator.Shared.vcxitems*{6d578ceb-cdcf-4c83-af17-c5ff061e7c36}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Debug|ARM.Build.0 = Debug|ARM
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Debug|Win32.Build.0 = Debug|Win32
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Debug|x64.ActiveCfg = Debug|x64
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Debug|x64.Build.0 = Debug|x64
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Release|ARM.ActiveCfg = Release|ARM
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Release|ARM.Build.0 = Release|ARM
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Release|Win32.ActiveCfg = Release|Win32
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Release|Win32.Build.0 = Release|Win32
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Release|x64.ActiveCfg = Release|x64
+		{3F4D97A9-0809-E0E4-5A3F-B6ACB6EABB46}.Release|x64.Build.0 = Release|x64
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Debug|ARM.Build.0 = Debug|ARM
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Debug|Win32.Build.0 = Debug|Win32
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Debug|x64.ActiveCfg = Debug|x64
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Debug|x64.Build.0 = Debug|x64
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Release|ARM.ActiveCfg = Release|ARM
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Release|ARM.Build.0 = Release|ARM
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Release|Win32.ActiveCfg = Release|Win32
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Release|Win32.Build.0 = Release|Win32
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Release|x64.ActiveCfg = Release|x64
+		{E080E217-FDAE-4B97-9C65-C9512FB08688}.Release|x64.Build.0 = Release|x64
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Debug|ARM.Build.0 = Debug|ARM
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Debug|Win32.Build.0 = Debug|Win32
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Debug|x64.ActiveCfg = Debug|x64
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Debug|x64.Build.0 = Debug|x64
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Release|ARM.ActiveCfg = Release|ARM
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Release|ARM.Build.0 = Release|ARM
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Release|Win32.ActiveCfg = Release|Win32
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Release|Win32.Build.0 = Release|Win32
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Release|x64.ActiveCfg = Release|x64
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5}.Release|x64.Build.0 = Release|x64
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Debug|ARM.Build.0 = Debug|ARM
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Debug|Win32.Build.0 = Debug|Win32
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Debug|x64.ActiveCfg = Debug|x64
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Debug|x64.Build.0 = Debug|x64
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Release|ARM.ActiveCfg = Release|ARM
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Release|ARM.Build.0 = Release|ARM
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Release|Win32.ActiveCfg = Release|Win32
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Release|Win32.Build.0 = Release|Win32
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Release|x64.ActiveCfg = Release|x64
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A}.Release|x64.Build.0 = Release|x64
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Debug|ARM.ActiveCfg = Debug|ARM
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Debug|ARM.Build.0 = Debug|ARM
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Debug|Win32.Build.0 = Debug|Win32
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Debug|x64.ActiveCfg = Debug|x64
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Debug|x64.Build.0 = Debug|x64
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Release|ARM.ActiveCfg = Release|ARM
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Release|ARM.Build.0 = Release|ARM
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Release|Win32.ActiveCfg = Release|Win32
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Release|Win32.Build.0 = Release|Win32
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Release|x64.ActiveCfg = Release|x64
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36}.Release|x64.Build.0 = Release|x64
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Debug|ARM.Build.0 = Debug|ARM
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Debug|Win32.Build.0 = Debug|Win32
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Debug|x64.ActiveCfg = Debug|x64
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Debug|x64.Build.0 = Debug|x64
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Release|ARM.ActiveCfg = Release|ARM
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Release|ARM.Build.0 = Release|ARM
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Release|Win32.ActiveCfg = Release|Win32
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Release|Win32.Build.0 = Release|Win32
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Release|x64.ActiveCfg = Release|x64
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84}.Release|x64.Build.0 = Release|x64
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Debug|ARM.Build.0 = Debug|ARM
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Debug|Win32.Build.0 = Debug|Win32
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Debug|x64.ActiveCfg = Debug|x64
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Debug|x64.Build.0 = Debug|x64
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Release|ARM.ActiveCfg = Release|ARM
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Release|ARM.Build.0 = Release|ARM
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Release|Win32.ActiveCfg = Release|Win32
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Release|Win32.Build.0 = Release|Win32
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Release|x64.ActiveCfg = Release|x64
+		{74144146-318D-441B-8B3A-540A5C63A00A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FBB3C49-5C85-410C-BD4D-A56FB946781F} = {64CF49CC-4BA0-4C55-A2C6-9A85CE585BC1}
+		{F9C0688B-528C-4931-AEF7-26D39D464C7F} = {8FBB3C49-5C85-410C-BD4D-A56FB946781F}
+		{E080E217-FDAE-4B97-9C65-C9512FB08688} = {8FBB3C49-5C85-410C-BD4D-A56FB946781F}
+		{CF552B1F-10E3-4A3C-864D-B11C63174B00} = {64CF49CC-4BA0-4C55-A2C6-9A85CE585BC1}
+		{ADA9A1B2-7544-4DF5-8243-49762FE89205} = {CF552B1F-10E3-4A3C-864D-B11C63174B00}
+		{1DEBBBC4-2253-49EC-BA03-257021EE32A5} = {CF552B1F-10E3-4A3C-864D-B11C63174B00}
+		{5D582C16-B70D-4BB2-BD37-05A5239737B8} = {64CF49CC-4BA0-4C55-A2C6-9A85CE585BC1}
+		{D36086FA-787F-4481-82BF-E90F604164C2} = {5D582C16-B70D-4BB2-BD37-05A5239737B8}
+		{F1D557B1-8F85-4107-93CC-EF4089F06F4A} = {5D582C16-B70D-4BB2-BD37-05A5239737B8}
+		{47ACC6A5-38BE-469A-9157-1D4218FB627B} = {64CF49CC-4BA0-4C55-A2C6-9A85CE585BC1}
+		{95A0BA5A-469C-4896-8C61-203E611ABC9D} = {47ACC6A5-38BE-469A-9157-1D4218FB627B}
+		{6D578CEB-CDCF-4C83-AF17-C5FF061E7C36} = {47ACC6A5-38BE-469A-9157-1D4218FB627B}
+		{C4E25EED-4E4F-4D9B-AB35-E942D9C2635B} = {64CF49CC-4BA0-4C55-A2C6-9A85CE585BC1}
+		{BF7BFB06-2BCA-4966-A4F3-935BEB0FD20B} = {C4E25EED-4E4F-4D9B-AB35-E942D9C2635B}
+		{0411C1F2-E7F6-4E37-B595-BA11417E2D84} = {C4E25EED-4E4F-4D9B-AB35-E942D9C2635B}
+		{BAE129BB-C6FB-4579-931C-398EAE1615CE} = {64CF49CC-4BA0-4C55-A2C6-9A85CE585BC1}
+		{C5B749ED-C68F-442B-AC1C-0D7BF083DFCF} = {BAE129BB-C6FB-4579-931C-398EAE1615CE}
+		{74144146-318D-441B-8B3A-540A5C63A00A} = {BAE129BB-C6FB-4579-931C-398EAE1615CE}
+	EndGlobalSection
+EndGlobal

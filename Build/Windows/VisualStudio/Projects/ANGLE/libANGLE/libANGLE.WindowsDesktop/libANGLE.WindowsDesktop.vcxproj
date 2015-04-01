@@ -26,12 +26,56 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\win32\NativeWindow.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Blit9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Buffer9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Fence9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\formatutils9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Framebuffer9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Image9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\IndexBuffer9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Query9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\Renderer9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\renderer9_utils.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\RenderTarget9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\ShaderExecutable9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\SwapChain9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\TextureStorage9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\VertexBuffer9.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d9\VertexDeclarationCache.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\BufferGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\CompilerGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\DefaultAttachmentGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\DisplayGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\FenceNVGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\FenceSyncGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\FramebufferGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\FunctionsGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\ProgramGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\QueryGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\RenderbufferGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\RendererGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\renderergl_utils.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\ShaderGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\StateManagerGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\SurfaceGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\TextureGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\TransformFeedbackGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\VertexArrayGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\wgl\DisplayWGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\wgl\FunctionsWGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\wgl\SurfaceWGL.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\gl\wgl\wgl_utils.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Source\ANGLE\third_party\systeminfo\SystemInfo.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1DEBBBC4-2253-49EC-BA03-257021EE32A5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>libANGLE</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="..\libANGLE.Shared\libANGLE.Shared.vcxitems" Label="Shared" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
@@ -93,14 +137,38 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <OutDir>$(SolutionDir)Output\bin\$(PlatformToolset)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Output\obj\$(ProjectName)\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <OutDir>$(SolutionDir)Output\bin\$(PlatformToolset)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Output\obj\$(ProjectName)\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Output\bin\$(PlatformToolset)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Output\obj\$(ProjectName)\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Output\bin\$(PlatformToolset)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Output\obj\$(ProjectName)\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Output\bin\$(PlatformToolset)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Output\obj\$(ProjectName)\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Output\bin\$(PlatformToolset)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Output\obj\$(ProjectName)\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_EXCEPTIONS=0;NOMINMAX;GL_APICALL=;GL_GLEXT_PROTOTYPES=;EGLAPI=;ANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ "d3dcompiler_47.dll", "d3dcompiler_46.dll", "d3dcompiler_43.dll" };LIBANGLE_IMPLEMENTATION;ANGLE_ENABLE_D3D9;ANGLE_ENABLE_D3D11;ANGLE_ENABLE_OPENGL;ANGLE_TRANSLATOR_STATIC;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\..\Include\ANGLE;..\..\..\..\..\..\..\Source\ANGLE;..\..\..\..\..\..\..\Source\ANGLE\third_party\khronos;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -113,7 +181,8 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_EXCEPTIONS=0;NOMINMAX;GL_APICALL=;GL_GLEXT_PROTOTYPES=;EGLAPI=;ANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ "d3dcompiler_47.dll", "d3dcompiler_46.dll", "d3dcompiler_43.dll" };LIBANGLE_IMPLEMENTATION;ANGLE_ENABLE_D3D9;ANGLE_ENABLE_D3D11;ANGLE_ENABLE_OPENGL;ANGLE_TRANSLATOR_STATIC;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\..\Include\ANGLE;..\..\..\..\..\..\..\Source\ANGLE;..\..\..\..\..\..\..\Source\ANGLE\third_party\khronos;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -126,7 +195,8 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_EXCEPTIONS=0;NOMINMAX;GL_APICALL=;GL_GLEXT_PROTOTYPES=;EGLAPI=;ANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ "d3dcompiler_47.dll", "d3dcompiler_46.dll", "d3dcompiler_43.dll" };LIBANGLE_IMPLEMENTATION;ANGLE_ENABLE_D3D9;ANGLE_ENABLE_D3D11;ANGLE_ENABLE_OPENGL;ANGLE_TRANSLATOR_STATIC;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\..\Include\ANGLE;..\..\..\..\..\..\..\Source\ANGLE;..\..\..\..\..\..\..\Source\ANGLE\third_party\khronos;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -141,7 +211,8 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_EXCEPTIONS=0;NOMINMAX;GL_APICALL=;GL_GLEXT_PROTOTYPES=;EGLAPI=;ANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ "d3dcompiler_47.dll", "d3dcompiler_46.dll", "d3dcompiler_43.dll" };LIBANGLE_IMPLEMENTATION;ANGLE_ENABLE_D3D9;ANGLE_ENABLE_D3D11;ANGLE_ENABLE_OPENGL;ANGLE_TRANSLATOR_STATIC;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\..\Include\ANGLE;..\..\..\..\..\..\..\Source\ANGLE;..\..\..\..\..\..\..\Source\ANGLE\third_party\khronos;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -158,7 +229,8 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_EXCEPTIONS=0;NOMINMAX;GL_APICALL=;GL_GLEXT_PROTOTYPES=;EGLAPI=;ANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ "d3dcompiler_47.dll", "d3dcompiler_46.dll", "d3dcompiler_43.dll" };LIBANGLE_IMPLEMENTATION;ANGLE_ENABLE_D3D9;ANGLE_ENABLE_D3D11;ANGLE_ENABLE_OPENGL;ANGLE_TRANSLATOR_STATIC;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\..\Include\ANGLE;..\..\..\..\..\..\..\Source\ANGLE;..\..\..\..\..\..\..\Source\ANGLE\third_party\khronos;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -175,7 +247,8 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_EXCEPTIONS=0;NOMINMAX;GL_APICALL=;GL_GLEXT_PROTOTYPES=;EGLAPI=;ANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ "d3dcompiler_47.dll", "d3dcompiler_46.dll", "d3dcompiler_43.dll" };LIBANGLE_IMPLEMENTATION;ANGLE_ENABLE_D3D9;ANGLE_ENABLE_D3D11;ANGLE_ENABLE_OPENGL;ANGLE_TRANSLATOR_STATIC;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\..\Include\ANGLE;..\..\..\..\..\..\..\Source\ANGLE;..\..\..\..\..\..\..\Source\ANGLE\third_party\khronos;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -184,9 +257,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

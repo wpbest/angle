@@ -65,9 +65,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\TextureStorage11.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Trim11.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\VertexBuffer11.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\CoreWindowNativeWindow.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\InspectableNativeWindow.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\SwapChainPanelNativeWindow.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\DisplayD3D.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\DynamicHLSL.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\formatutilsD3D.cpp" />

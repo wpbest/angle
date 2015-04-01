@@ -19,9 +19,6 @@
     <Filter Include="Source Files\libANGLE\renderer\d3d\d3d11">
       <UniqueIdentifier>{a4358ccd-6aa0-464b-89a2-47975d858dba}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\libANGLE\renderer\d3d\d3d11\winrt">
-      <UniqueIdentifier>{ca7a22b4-32cc-42a9-a727-e675e760d281}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\third_party">
       <UniqueIdentifier>{a71e0cd0-f76f-4f37-9a5f-2a94e4f408ee}</UniqueIdentifier>
     </Filter>
@@ -35,15 +32,6 @@
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\common\event_tracer.cpp">
       <Filter>Source Files\common</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\CoreWindowNativeWindow.cpp">
-      <Filter>Source Files\libANGLE\renderer\d3d\d3d11\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\InspectableNativeWindow.cpp">
-      <Filter>Source Files\libANGLE\renderer\d3d\d3d11\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\winrt\SwapChainPanelNativeWindow.cpp">
-      <Filter>Source Files\libANGLE\renderer\d3d\d3d11\winrt</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\..\Source\ANGLE\libANGLE\renderer\d3d\d3d11\Blit11.cpp">
       <Filter>Source Files\libANGLE\renderer\d3d\d3d11</Filter>
